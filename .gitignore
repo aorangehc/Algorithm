@@ -1,0 +1,46 @@
+# Editors & IDE metadata
+.vscode/
+.idea/
+*.code-workspace
+
+# JSON configs and data (as requested)
+*.json
+
+# Build outputs and artifacts
+build/
+bin/
+out/
+dist/
+Debug/
+Release/
+
+# C/C++ compilation outputs
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+# macOS dSYM bundles
+*.dSYM/
+# our interactive build output
+outDebug
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Caches
+.cache/
+coverage/
+tmp/
+temp/
