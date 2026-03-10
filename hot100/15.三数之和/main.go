@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 	"reflect"
-	"sort"
+	"slices"
 )
 
 func threeSum(nums []int) [][]int {
 	n := len(nums)
-	sort.Ints(nums)
+	slices.Sort(nums)
 	ans := [][]int{}
 
 	for i := 0; i < n-2; i++ {
